@@ -1,0 +1,7 @@
+[git-together]
+	domain = events.tracked
+[git-together "authors"]
+  kg = "Kyle Gorak; kyle@gorak.us"
+  rm = "Riley McKenzie; ryemack@protonmail.com"
+  mz = "Mark Zurat; mzurat@protonmail.com"
+  jm = "John Moore; mojo9492@outlook.com"
