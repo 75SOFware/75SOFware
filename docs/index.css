@@ -103,6 +103,11 @@ footer {
     align-items: center;
 }
 
+.slogan-diamond-container > p {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
 .slogan-diamond-container > img {
     margin: -40px;
 }
@@ -113,6 +118,7 @@ footer {
     background: var(--primary-button-color);
     color: var(--primary-button-text-color);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+    font-size: 1.5em;
 }
 
 .link-button:hover {
@@ -129,6 +135,7 @@ footer {
     padding: 10px;
     justify-content: center;
     align-items: center;
+    font-size: 1.5em;
 }
 
 .idea-button-box:hover {
