@@ -10,6 +10,10 @@
     text-transform: capitalize;
 }
 
+p {
+    text-transform: none;
+}
+
 a {
     margin: 0;
 }
@@ -27,6 +31,7 @@ footer {
     margin: auto;
     text-align: center;
     width: 80vw;
+    text-transform: none;
 }
 
 .main-container {
@@ -80,20 +85,19 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 80vw;
 }
 
 .large-img {
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
     height: auto;
-    max-height: 612px;
+    max-width: 438px;
+    padding: 15px;
 }
 
 .page-content {
     display: flex;
     flex-direction: column;
-    padding: 0 5em 0 5em;
     min-width: 278px;
 }
 
@@ -132,6 +136,7 @@ footer {
     border-width: 3px;
     border-style: solid;
     background-color: var(--alternate-button-color);
+    color: var(--primary-font-color);
     padding: 10px;
     justify-content: center;
     align-items: center;
@@ -150,17 +155,26 @@ footer {
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 1em;
-    row-gap: 1em;
+    column-gap: 14px;
+    row-gap: 14px;
 }
 
-@media screen and (max-width: 800px) {
-  .grid-container {
-    grid-template-columns: 1fr;
-  }
-  .link-button {
-    place-self:  center;
-  }
+@media screen and (max-width: 570px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    .link-button {
+        place-self: center;
+    }
+    .idea-button-box {
+        width: 278px;
+        place-self: center;
+    }
+    .large-img {
+        max-width: 278px;
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 .space-1 {
