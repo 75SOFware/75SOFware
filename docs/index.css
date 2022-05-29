@@ -37,23 +37,17 @@ footer {
 .main-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .header-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    font-size: 1em;
-    min-height: 91px;
-    width: 80vw;
+    max-width: 1030px;
+    width: 100%;
 }
 
 .header-navigation-container {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap-reverse;
     flex-grow: 1;
@@ -110,10 +104,6 @@ footer {
 .slogan-diamond-container > p {
     font-size: 1.8em;
     font-weight: bold;
-}
-
-.slogan-diamond-container > img {
-    margin: -40px;
 }
 
 .link-button {

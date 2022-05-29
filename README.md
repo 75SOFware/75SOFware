@@ -5,4 +5,4 @@ SOFware.org is not an official component of the Department of Defense or any Mil
 Service.
 
 ## About
-Software Development Team within 2d Battalion, 75 Ranger Regiment.
+Software Development Team out of Washington.
